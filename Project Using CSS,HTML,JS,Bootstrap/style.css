@@ -1,0 +1,134 @@
+
+
+/* General */
+
+body{
+    font-family: Arial, sans-serif;
+    background:#f8f9fa;
+}
+
+/* Navbar */
+nav{
+    width:100%;
+    height:60px;
+}
+
+.navbar-brand{
+    font-size:24px;
+    font-weight:bold;
+}
+
+/* Hero Section */
+
+.hero{
+    background:linear-gradient(rgba(35, 34, 34, 0.6),rgba(35, 33, 33, 0.6)),url('images/hero2.png');
+    background-size:cover;
+    background-position:center;
+    height:500px;
+    color:white;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+}
+
+.hero h1{
+    font-size:50px;
+    font-weight:bold;
+}
+
+.hero p{
+    font-size:20px;
+}
+
+/* Cards */
+
+.card{
+    border:none;
+    border-radius:12px;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-8px);
+    box-shadow:0 8px 20px rgba(0,0,0,.2);
+}
+
+/* Buttons */
+
+.btn{
+    border-radius:8px;
+}
+
+/* Forms */
+
+form label{
+    font-weight:bold;
+}
+
+input,
+textarea{
+    border-radius:8px !important;
+}
+
+/* Footer */
+
+footer{
+    margin-top:40px;
+}
+
+/* Responsive */
+
+@media(max-width:768px){
+
+.hero{
+    height:350px;
+}
+
+.hero h1{
+    font-size:34px;
+}
+
+.hero p{
+    font-size:17px;
+}
+
+}
+
+.image-container img{
+    width: 550px;
+    height:300px;
+}
+.about-section h2{
+    margin-top:40px;
+    margin-left:40px;
+    margin-right:40px;
+    color:Black;
+    font-weight:bold;
+    border-radius:10px;
+    text-align:center;
+}
+.about-section p{
+    font-size: 18px;
+    line-height: 1.9;
+    margin:40px;
+
+}
+
+.carousel-item img {
+    height: 600px;
+    object-fit: cover;
+}
+
+.carousel-caption {
+    bottom: 25%;
+}
+
+.carousel-caption h1 {
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.carousel-caption p {
+    font-size: 1.2rem;
+}
